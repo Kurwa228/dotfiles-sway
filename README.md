@@ -24,11 +24,10 @@ For use Breeze-Sway theme you need these components on your system:
 * bc
 * qt5ct
 
-Installation on Debian Bullseye/Ubuntu 20.04 and newer:
+Installation on Arch:
 
-`sudo apt install waybar mako-notifier wf-recorder grim slurp pcmanfm-qt kitty xsettingsd
-jq bc qt5ct fonts-font-awesome breeze breeze-gtk-theme polkit1-auth-agent ansiweather`
+`sudo pacman -Syu waybar mako grim slurp pcmanfm-qt kitty xsettingsd
+jq bc qt5ct otf-font-awesome breeze breeze-gtk polkit1-auth-agent`
+`yay -Syu ansiweather wf-recorder awesome-terminal-fonts`
 
 If you want to use screencasting and screensharing via PipeWire, you need to install `xdg-desktop-portal-wlr` package.
-
-**Note for Arch Linux users:** some components, like `wf-recorder` or `ansiweather` (for weather showcasting) is only available in **AUR**. Also you have to install `otf-awesome-font` and `awesome-terminal-fonts`, as well as Noto Sans.

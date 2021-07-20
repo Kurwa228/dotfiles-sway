@@ -4,7 +4,7 @@
 
 #Set XDG_CURRENT_DESKTOP to Sway (need for screensharing via
 #PipeWire and xdg-desktop-portal-wlr)
-export XDG_CURRENT_DESKTOP=sway
+set -gx XDG_CURRENT_DESKTOP=sway
 
 #Default apps
 set -gx EDITOR nano

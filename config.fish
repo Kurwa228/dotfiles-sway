@@ -19,10 +19,8 @@ set -gx ECORE_EVAS_ENGINE 'wayland_egl'
 set -gx ELM_ACCEL 'gl'
 
 #Firefox
-export MOZ_ENABLE_WAYLAND 1
+set -gx MOZ_ENABLE_WAYLAND 1
 
 #SDL
-#export SDL_VIDEODRIVER wayland
+#set -gx SDL_VIDEODRIVER wayland
 
-
-[[ -f ~/.bashrc ]] && . ~/.bashrc

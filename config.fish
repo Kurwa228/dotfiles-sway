@@ -1,4 +1,4 @@
-#
+# Plasma is broke lol
 # ~/.config/fish/config.fish
 #
 

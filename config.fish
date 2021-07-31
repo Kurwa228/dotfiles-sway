@@ -11,7 +11,7 @@ set -gx EDITOR nano
 set -gx BROWSER firefox
 
 #Qt
-#set -gx QT_QPA_PLATFORM wayland-egl
+set -gx QT_QPA_PLATFORM wayland-egl
 
 #do not use qt5ct, if u run plasmashell 
 #set -gx QT_QPA_PLATFORMTHEME qt5ct

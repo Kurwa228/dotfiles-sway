@@ -27,7 +27,7 @@ For use Breeze-Sway theme you need these components on your system:
 Installation on Arch:
 
 `sudo pacman -Syu waybar mako grim slurp pcmanfm-qt kitty xsettingsd
-jq bc qt5ct otf-font-awesome breeze breeze-gtk polkit1-auth-agent`
+jq bc qt5ct otf-font-awesome breeze breeze-gtk ` and 'polkit-gnome' or 'polkit-kde'
 `yay -Syu ansiweather wf-recorder awesome-terminal-fonts`
 
 If you want to use screencasting and screensharing via PipeWire, you need to install `xdg-desktop-portal-wlr` package.

@@ -14,7 +14,7 @@ set -gx BROWSER firefox
 set -gx QT_QPA_PLATFORM wayland-egl
 
 #do not use qt5ct, if u run plasmashell 
-#set -gx QT_QPA_PLATFORMTHEME qt5ct
+set -gx QT_QPA_PLATFORMTHEME qt5ct
 
 #EFL
 set -gx ECORE_EVAS_ENGINE 'wayland_egl'

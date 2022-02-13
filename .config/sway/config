@@ -1,12 +1,11 @@
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
 # Home row direction keys, like vim
-bindsym --to-code {
-  set $left h
-  set $down j
-  set $up k
-  set $right l
-}
+set $left h
+set $down j
+set $up k
+set $right l
+
 ### Include theme
 #
 include themes/breeze-sway
@@ -51,7 +50,6 @@ assign [app_id="pcmanfm-qt"] workspace 3
 # Basics:
 #
 #For make key bindings work regardless of the currently active layout
-bindsym --to-code {
     # Start a terminal
     bindsym $mod+Return exec $term
 
@@ -75,7 +73,7 @@ bindsym --to-code {
     
     # Take a screenshot of focused window
     bindsym $mod+Shift+Print exec grim -g "$(swaymsg -t get_tree | jq -r '.. | select(.focused?) | .rect | "\(.x),\(.y) \(.width)x\(.height)"')" ~/Pictures/screenshot-"$(date +%s)".png
-}
+    
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
     # Despite the name, also works for non-floating windows.

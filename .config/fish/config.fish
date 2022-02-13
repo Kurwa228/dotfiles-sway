@@ -2,9 +2,9 @@
 # ~/.config/fish/config.fish
 #
 
-#XDG_CURRENT_DESKTOP may be Sway or etc.
 #Need for screensharing via
 #PipeWire and xdg-desktop-portal-wlr)
+XDG_CURRENT_DESKTOP sway
 
 #Default apps
 set -gx EDITOR nano

@@ -226,5 +226,7 @@ bar {
 exec mako
 #exec --no-startup-id dunst
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+# kde connect start anyway
+exec kdeconnect-indicator
 
 include /etc/sway/config.d/*

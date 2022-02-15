@@ -1,6 +1,6 @@
 My Sway config 
 
-![Sway Screenshot](https://github.com/Kurwa228/dotfiles-sway/blob/master/russia.png)
+![Sway Screenshot](https://github.com/Kurwa228/dotfiles-sway/blob/master/20220215_11h49m18s_grim.png)
 
 Used applications:
 

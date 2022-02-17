@@ -13,6 +13,7 @@ Used applications:
 * PCmanFM-Qt (file-manager)
 * Kitty (terminal emulator)
 * Firefox (because of full Wayland support :) )
+* Wofi (launcher program for wlroots, but is not being actively maintained for a year)
 
 For use Breeze-Sway theme you need these components on your system:
 

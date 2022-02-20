@@ -72,8 +72,8 @@ assign [app_id="pcmanfm-qt"] workspace 3
     # Take a screenshot of selected region
     bindsym $mod+Print exec grim -g "$(slurp)" ~/Pictures/screenshot-"$(date +%s)".png
     
-    # Take a screenshot of focused window
-    bindsym $mod+Shift+Print exec grim -g "$(swaymsg -t get_tree | jq -r '.. | select(.focused?) | .rect | "\(.x),\(.y) \(.width)x\(.height)"')" ~/Pictures/screenshot-"$(date +%s)".png
+    # Take a screenshot of focused window.. don't work for me
+    # bindsym $mod+Shift+Print exec grim -g "$(swaymsg -t get_tree | jq -r '.. | select(.focused?) | .rect | "\(.x),\(.y) \(.width)x\(.height)"')" ~/Pictures/screenshot-"$(date +%s)".png
     
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.

@@ -22,7 +22,7 @@ set $browser firefox
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-# output * bg ~/Изображения/Backgrounds/2.jpg fill
+output * bg /home/vv/russia.png fill
 
 # Default workspaces for common programms
 assign [app_id="firefox"] workspace 2

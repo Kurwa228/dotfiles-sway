@@ -4,7 +4,7 @@
     "height": 25,
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["sway/window"],
-    "modules-right": ["custom/weather", "custom/keyboard-layout", "pulseaudio", "cpu", "memory", "battery", "clock#time", "clock#date", "tray"],
+    "modules-right": ["custom/weather", "custom/keyboard-layout", "pulseaudio", "cpu", "memory", "clock#time", "clock#date", "tray"],
     "sway/window": {
         "max-length": 50
     },

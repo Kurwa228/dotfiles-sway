@@ -47,10 +47,7 @@
     },
     "scroll-step": 1,
     "on-click-right": "pavucontrol"
-    },
-    "battery": {
-        "format": "{capacity}% {icon}",
-        "format-icons": ["", "", "", "", ""]
+   
     },
     "clock#time": {
         "interval": 1,

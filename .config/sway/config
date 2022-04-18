@@ -13,10 +13,19 @@ set $right l
 
 # Your preferred terminal emulator
 set $term kitty
+
+# Your preferred display
 set $DISPLAY :0.0
-set $menu wofi --show run --allow-images
+
+# Your preferred app launcher
+set $menu sirula
+
+# Your preferred file managers
 set $filer nautilus
+
+# Your preferred browser
 set $browser firefox
+
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.

@@ -3,7 +3,7 @@
 #
 
 #Need for screensharing via
-#PipeWire and xdg-desktop-portal-wlr)
+#PipeWire and xdg-desktop-portal-wlr
 set -gx XDG_CURRENT_DESKTOP sway
 
 #Default apps
